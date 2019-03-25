@@ -1,0 +1,80 @@
+
+/******************************************
+
+Formulaire d'envoi
+
+*******************************************/
+
+#ts_form_post{
+	width: auto;
+	text-align: center;
+	padding : 10px;
+	margin:auto;
+}
+
+#ts_post_tab
+{
+	margin : auto;
+}
+
+#ts_post_tab, #ts_post_tab p
+{
+	color: black;
+}
+
+#ts_post_tab fieldset
+{
+	background-image: url('../img/vinyle.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+}
+
+/*********************************************************************************************************************************
+
+Back office
+
+**********************************************************************************************************************************/
+
+#ts_lists
+{
+	display : flex;
+	justify-content: space-around;
+}
+
+#ts_lists div
+{
+	display : inline-block;
+	background-color: #feffd6;
+	border : 1px solid black;
+	box-shadow: 5px 5px 0px grey;
+	border-radius : 2px;
+	width : 40%;
+	padding : 20px;
+}
+
+/*********************************************************************************************************************************
+
+Affichage tab online
+
+**********************************************************************************************************************************/
+
+.displayed_tab{
+	border : 1px solid black;
+	display : flex;
+	justify-content: space-around;
+	padding : 10px;
+	margin : 15px;
+	border-radius: 1px;
+	box-shadow: 5px 5px 5px lightgrey;
+	background-color: #feffd6;
+}
+
+.displayed_tab #author{
+	font-size: 16px;
+}
+
+.displayed_tab #title{
+	font-size:14px;
+}
